@@ -54,7 +54,7 @@
    #     print(i[0])
 #print(d)
    
-#            exemption handling:
+#            exception handling:
 # error : it stops the file to execute;3 types error
 #syntax error:rules and regulations properly
 #logical error:no syntax error,but no proper output->a=10 print(a+b)
@@ -67,10 +67,10 @@
 #except:
  #   print('hi')
 
-'''try:
+try:
     a=10
-    print(a)
-    #print(a+b)
+    #print(a)
+    print(a+b)
     #print(a/0)
     #print(a)
 except NameError:
@@ -80,7 +80,7 @@ except ZeroDivisionError:
 else:
     print("hi")
 finally:
-    print('done')'''
+    print('done')
 
 '''a=float(input())
 if(a>=0 and a<=10):
